@@ -1,0 +1,182 @@
+body  {
+    color:black;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Exo', sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Hero Section */
+
+#hero {
+    background-image: url("images/park2.jpg");
+    background-size: cover;
+    height: 560px;
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#hero h1 {
+    text-shadow: -3px 2px 1px black;
+    background: #F26419;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 130px 0 5px 0;
+}
+
+#hero h2 {
+    text-shadow: -3px 2px 1px black;
+    background: #F26419;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#act-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Activities Section */
+
+#act-title {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #2F4858;
+    width: 250px;
+    margin: 20px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    color: white;
+}
+
+.card-image {
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.card a {
+    background-color: #F6AE2D;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.card-1 {
+    background-image: url("images/bangon.jpg")
+}
+
+.card-2 {
+    background-image: url("images/zipline.jpg");
+}
+
+.card-3 {
+    background-image: url("images/tarangban.jpg")
+}
+
+.card h2 {
+    padding-bottom: 10px;
+}
+
+.card p {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Card Section */
+
+.tour-img {
+    width: 150px;
+}
+
+#tour-guide {
+    background-color: #F26419;
+    color: white;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    padding: 20px;
+    display: flex;
+    width: 600px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.guide-text {
+    padding: 10px;
+}
+
+/* Footer Section */
+
+footer {
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding: 20px 0;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p {
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+.contacts {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.contacts li {
+    margin: 0 10px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts a:hover i {
+    color: aqua;
+}
+
+.copyright {
+    font-size: 14px;
+}
